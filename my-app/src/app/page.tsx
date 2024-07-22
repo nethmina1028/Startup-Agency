@@ -1,6 +1,7 @@
 import Block from "./components/Block";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import News from "./components/News";
 import Service from "./components/Service";
 import Testimonials from "./components/Testimonials";
 
@@ -15,6 +16,7 @@ export default function Home() {
         <Service />
         <Block />
         <Testimonials />
+        <News />
     </div>
 
     </main>
