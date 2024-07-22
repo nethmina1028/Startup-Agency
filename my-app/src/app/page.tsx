@@ -1,4 +1,5 @@
 import Block from "./components/Block";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import News from "./components/News";
@@ -17,6 +18,7 @@ export default function Home() {
         <Block />
         <Testimonials />
         <News />
+        <Footer />
     </div>
 
     </main>
