@@ -1,9 +1,10 @@
-import Image from "next/image";
+import Navbar from "./components/Navbar";
+
 
 export default function Home() {
   return (
-    <main >
-      
+    <main className="relative poppins  md:px-[9rem]">
+        <Navbar />
     </main>
   );
 }
