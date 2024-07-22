@@ -2,6 +2,7 @@ import Block from "./components/Block";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Service from "./components/Service";
+import Testimonials from "./components/Testimonials";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
         <Hero />
         <Service />
         <Block />
+        <Testimonials />
     </div>
 
     </main>

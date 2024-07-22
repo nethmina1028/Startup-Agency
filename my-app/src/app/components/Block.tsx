@@ -2,7 +2,7 @@ import React from 'react'
 
 function Block() {
   return (
-    <div className='flex flex-col md:flex-row items-center justify-between '>
+    <div className='flex flex-col md:flex-row items-center justify-between gap-10 '>
           <div>
             <p className='text-lightBlue font-bold text-2xl'>Many Block and Components</p>
             <p className="text-customLightGray text-[1.2rem] mt-4 mb-8">Startup Framework contains components and complex blocks which can easily be integrated into almost any design.</p>
