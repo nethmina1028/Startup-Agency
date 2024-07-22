@@ -1,12 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 function Navbar() {
      
-    const [menu, setMenu] = useState(false);
-    const toggleMenu = () => {
-      setMenu(!menu);
-    };
-
+    
     const navItems = [
         { label: "Home", href: "#" },
         { label: "About Us", href: "#" },
@@ -43,7 +39,7 @@ function Navbar() {
            
            
     
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
