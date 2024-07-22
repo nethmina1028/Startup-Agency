@@ -14,7 +14,7 @@ function Hero() {
 
                 <button className='bg-orange-500 h-[3.1015rem] w-[9.4375rem] text-white hover:opacity-90 rounded-[0.625rem] font-medium'>Get Started</button>
 
-                <div className='flex items-center gap-6'>
+                <div className='flex items-center gap-6 md:pb-0 pb-4'>
 
                  <img src="/images/fancy_play_icon.png" alt="play icon" />
                  <p className="font-bold text-normal">Learn More</p>
@@ -25,7 +25,7 @@ function Hero() {
         
         </div>
 
-        <div>
+        <div className=''>
 
         <img
           src="/images/happy_guy.png"
